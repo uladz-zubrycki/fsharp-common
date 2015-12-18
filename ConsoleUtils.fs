@@ -1,6 +1,6 @@
 open System
 
-module LogUtils = 
+module ConsoleUtils = 
     let private printColored color message = 
         let cmdColor = Console.ForegroundColor
         Console.ForegroundColor <- color
